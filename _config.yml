@@ -121,4 +121,4 @@ deploy:
     color: "#000000"               # 简介字体颜色
     webp: false          # 是否使用 webp 格式图片
     progress: true      # 是否显示进度条
-    ...
+    
