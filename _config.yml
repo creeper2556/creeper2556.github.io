@@ -117,8 +117,8 @@ deploy:
     show: 1              # 初始显示页面: 0=想看, 1=在看, 2=看过
     lazyload: true       # 是否启用图片懒加载
     loading:             # 加载动画
-    metaColor:           # meta 信息字体颜色
-    color:               # 简介字体颜色
+    metaColor: "#FFFFFF"           # meta 信息字体颜色
+    color: "#000000"               # 简介字体颜色
     webp: false          # 是否使用 webp 格式图片
     progress: true      # 是否显示进度条
     ...
