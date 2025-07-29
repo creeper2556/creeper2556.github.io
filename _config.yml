@@ -106,3 +106,19 @@ deploy:
   repo: https://github.com/creper2556/creeper2556.github.io
   # example, https://github.com/hexojs/hexojs.github.io
   branch: gh-pages
+
+  bangumi: # 追番设置
+    enable: true           # 是否启用
+    source: bgmv0          # 数据源
+    path: bangumis/index.html  # 页面路径
+    vmid: 847813           # 用户ID
+    title: '追番列表'      # 页面标题
+    quote: '生命不息，追番不止！' # 页面引言
+    show: 1              # 初始显示页面: 0=想看, 1=在看, 2=看过
+    lazyload: true       # 是否启用图片懒加载
+    loading:             # 加载动画
+    metaColor:           # meta 信息字体颜色
+    color:               # 简介字体颜色
+    webp: false          # 是否使用 webp 格式图片
+    progress: true      # 是否显示进度条
+    ...
