@@ -32,7 +32,7 @@ jobs:
       - name: Install Dependencies
         run: npm install
       - name: Update Bangumi Data
-        run: npx hexo bangumi -u
+        run: npx hexo bangumi -u #bgm
       - name: Build
         run: npm run build
       - name: Upload Pages artifact
